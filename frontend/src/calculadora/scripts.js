@@ -32,7 +32,9 @@ operators.forEach((item) => {
 let calculate = document.getElementsByClassName("calculate");
 calculate[0].addEventListener('click', (i) => {
   console.log("resultado");
-  fetch(apiUrl + "calculate/" + Number(operand[0].innerText) + "&" + Number(operand[1].innerText) + "&" + showOperator.innerText)
+  let operator = showOperator.innerText
+  if(showOperator.innerText == "/") operator = "%2F";
+  fetch(apiUrl + "calculate/" + Number(operand[0].innerText) + "&" + Number(operand[1].innerText) + "&" + operator)
     .then((resp) => resp.text())
     .then((resp) => {
       console.log(resp);

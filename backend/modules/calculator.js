@@ -24,7 +24,7 @@ let calculator = () => {
             case "+": return operand1 + operand2;
             case "-": return operand1 - operand2;
             case "*": return operand1 * operand2;
-            case "÷": return operand1 / operand2;
+            case "/": return operand1 / operand2;
             default: return "Defina operação";
         }
     }
