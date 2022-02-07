@@ -1,50 +1,59 @@
 const apiUrl = 'http://localhost:3000/';
-let pos = 0;
-let operand = document.querySelectorAll(".operands");
-let showOperator = document.getElementById("showOperator");
-let result = document.getElementById("result");
+let clearNextTime = false;
+let firstCalc = true;
+let operand1 = null;
+let operand2 = null;
+let operator = null;
 
-operand.forEach((item, index) => {
-  item.addEventListener('click', (data) => {
-    pos = index;
-    operand.forEach((i) => { i.style.backgroundColor = "#fff"; });
-    operand[pos].style.backgroundColor = "#ccc";
+$(".inputNumber").click(function (event) {
+  if (clearNextTime) {
+    $("#screen").val("");
+    clearNextTime = false;
+  }
+  $("#screen").val(function (i, orig) {
+    return orig + event.target.value;
   });
-});
+})
 
-let numbers = document.querySelectorAll(".inputNumber");
-numbers.forEach((item) => {
-  item.addEventListener('click', (data) => {
-    console.log(data.target.value);
-    operand[pos].innerText += data.target.value;
-    console.log(operand[pos].innerText);
-  });
-});
+$(".operator").click(function (event) {
+  operator = event.target.value;
+  $("#screenOperation").val(event.target.value);
+  operand1 = $("#screen").val();
+  firstCalc = true;
+  clearNextTime = true;
+})
 
-let operators = document.querySelectorAll(".operator");
-operators.forEach((item) => {
-  item.addEventListener('click', (data) => {
-    console.log(data.target.value);
-    showOperator.innerHTML = data.target.value;
-  });
-});
+$(".result").click(function () {
+  if (firstCalc) {
+    operand2 = $("#screen").val();
+    $("#screen").val(getResult());
+    firstCalc = false;
+    clearNextTime = true;
+  } else {
+    operand1 = $("#screen").val();
+    $("#screen").val(getResult());
+  }
+})
 
-let calculate = document.getElementsByClassName("calculate");
-calculate[0].addEventListener('click', (i) => {
-  console.log("resultado");
-  let operator = showOperator.innerText
-  if(showOperator.innerText == "/") operator = "%2F";
-  fetch(apiUrl + "calculate/" + Number(operand[0].innerText) + "&" + Number(operand[1].innerText) + "&" + operator)
+$(".reset").click(function () {
+  $("#screen").val("");
+  $("#screenOperation").val("");
+  firstCalc = true;
+})
+
+$(".toggleSignal").click(function () {
+  $("#screen").val((-1) * Number($("#screen").val()));
+})
+
+$(".erase").click(function () {
+  $("#screen").val($("#screen").val().slice(0, -1));
+})
+function getResult() {
+  if (operator == "/") operator = "%2F";
+  fetch(apiUrl + "calculate/" + Number(operand1) + "&" + Number(operand2) + "&" + operator)
     .then((resp) => resp.text())
     .then((resp) => {
       console.log(resp);
-      result.innerHTML = resp;
+      $("#screen").val(resp);
     })
-});
-
-let reset = document.getElementsByClassName("reset");
-reset[0].addEventListener('click', () => {
-  operand.forEach((i) => { i.innerText = ""; });
-  showOperator.innerText = "?";
-  result.innerText = "";
-})
+}
