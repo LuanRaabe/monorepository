@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main {
+  display: flex;
+}
+
+#main * {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+span select {
+  width: 400px;
+}
+
+section {
+  display: none;
+}
+
+#main, section {
+  flex-direction: column;
+}
+
+#all-games {
+  width: 80vw;
+}
+
+tr:nth-child(even) { 
+  background: #ccc; 
+}
+
+tr:nth-child(odd) { 
+  background: #FFF; 
+}
+
+table * { 
+  padding: 15px; 
+}
+
+#add-game {
+  width: fit-content;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#actions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#actions * {
+  width: 40%;
+}

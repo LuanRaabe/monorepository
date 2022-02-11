@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta base de dados</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <form id="main">
+        <h1>Adicione a nossa biblioteca seus jogos favoritos</h1>
+        <input type="text" id="name" placeholder="Nome do jogo">
+        <input type="text" id="genre" placeholder="Genero">
+        <span>Lançamento: <input type="date" id="year"></span>
+        <span>
+            Multiplayer:
+            <select id="multiplayer">
+                <option selected disabled>---Selecione---</option>
+                <option>Sim</option>
+                <option>Não</option>
+            </select>
+        </span>
+        <span>
+            Offline:
+            <select id="offline">
+                <option selected disabled>---Selecione---</option>
+                <option>Sim</option>
+                <option>Não</option>
+            </select>
+        </span>
+        <span>
+            Crossplataform:
+            <select id="crossplataform">
+                <option selected disabled>---Selecione---</option>
+                <option>Sim</option>
+                <option>Não</option>
+            </select>
+        </span>
+        <div id="actions">
+            <input type="button" id="add-request" value="Cadastrar">
+            <input type="button" id="consult-all" value="Consultar todos os jogos">
+        </div>
+    </form>
+    <section>
+        <input type="button" id="add-game" value="Adicionar jogo"></input>
+        <table id="all-games"></table>
+    </section>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

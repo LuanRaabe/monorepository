@@ -9,6 +9,7 @@ const sec = require("./modules/sector.js");
 const brc = require("./modules/extension.js");
 const add = require("./modules/adduser.js");
 const calc = require("./modules/calculator.js");
+const games = require("./modules/games.js");
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -63,10 +64,19 @@ app.post("/adduser", (req, res) => {
 });
 
 app.get("/calculate/:operand1?&:operand2?&:operator?", (req, res) => {
-    let {operand1, operand2, operator} = req.params;
+    let { operand1, operand2, operator } = req.params;
     console.log(operand1, operator, operand2);
     res.send(calc.calculate(operand1, operand2, operator).toString());
     return false;
+});
+
+app.get("/games/all", (req, res) => {
+    res.send(games.allGames());
+});
+app.post("/games", (req, res) => {
+    console.log("Server", req.body);
+    console.log("Adicionando jogo");
+    res.json(games.addGame(req.body));
 });
 
 app.listen(port, () => {

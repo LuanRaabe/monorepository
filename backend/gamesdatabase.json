@@ -1,0 +1,929 @@
+[
+      {
+            "id": 1,
+            "game": "Flexidy",
+            "year": "20/02/2018",
+            "genre": "Comedy",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 2,
+            "game": "Tin",
+            "year": "25/10/1957",
+            "genre": "Comedy|Crime|Thriller",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 3,
+            "game": "Matsoft",
+            "year": "26/09/1976",
+            "genre": "Documentary",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 4,
+            "game": "Zoolab",
+            "year": "19/02/1999",
+            "genre": "Action|Comedy|Crime|Thriller",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 5,
+            "game": "Duobam",
+            "year": "13/03/1981",
+            "genre": "Comedy",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 6,
+            "game": "Quo Lux",
+            "year": "19/05/2002",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 7,
+            "game": "Lotstring",
+            "year": "15/04/2001",
+            "genre": "Comedy",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 8,
+            "game": "Fix San",
+            "year": "28/02/1999",
+            "genre": "Musical",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 9,
+            "game": "Konklab",
+            "year": "27/04/1987",
+            "genre": "Comedy",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 10,
+            "game": "Tres-Zap",
+            "year": "29/07/1994",
+            "genre": "Comedy|Drama",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 11,
+            "game": "Tin",
+            "year": "21/01/1999",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 12,
+            "game": "Konklux",
+            "year": "15/10/2011",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 13,
+            "game": "Subin",
+            "year": "15/12/1975",
+            "genre": "Comedy|Musical",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 14,
+            "game": "Trippledex",
+            "year": "16/11/1971",
+            "genre": "Comedy",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 15,
+            "game": "Pannier",
+            "year": "24/07/2019",
+            "genre": "Drama|Romance",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 16,
+            "game": "Bitwolf",
+            "year": "07/07/2020",
+            "genre": "Drama|War",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 17,
+            "game": "Zamit",
+            "year": "27/09/1984",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 18,
+            "game": "Regrant",
+            "year": "19/10/1958",
+            "genre": "Horror|Thriller",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 19,
+            "game": "Cardguard",
+            "year": "22/11/1987",
+            "genre": "Comedy|Fantasy",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 20,
+            "game": "Prodder",
+            "year": "02/02/1954",
+            "genre": "Adventure|Western",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 21,
+            "game": "Konklux",
+            "year": "14/01/1981",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 22,
+            "game": "Stronghold",
+            "year": "27/02/2005",
+            "genre": "(no genres listed)",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 23,
+            "game": "Wrapsafe",
+            "year": "03/11/2006",
+            "genre": "Comedy|Drama",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 24,
+            "game": "Ventosanzap",
+            "year": "17/12/2012",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 25,
+            "game": "Bamity",
+            "year": "30/08/1952",
+            "genre": "Adventure|Children|Comedy",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 26,
+            "game": "Subin",
+            "year": "05/07/2011",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 27,
+            "game": "Gembucket",
+            "year": "02/03/1994",
+            "genre": "Drama|Romance",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 28,
+            "game": "Job",
+            "year": "24/02/1991",
+            "genre": "Comedy|Drama",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 29,
+            "game": "Konklab",
+            "year": "12/06/2021",
+            "genre": "Comedy",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 30,
+            "game": "Vagram",
+            "year": "07/03/2011",
+            "genre": "Documentary",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 31,
+            "game": "Y-Solowarm",
+            "year": "20/03/1990",
+            "genre": "Documentary",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 32,
+            "game": "Alpha",
+            "year": "22/08/1956",
+            "genre": "Action|Crime|Thriller",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 33,
+            "game": "Toughjoyfax",
+            "year": "12/11/1987",
+            "genre": "Action|Adventure|Drama|Thriller",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 34,
+            "game": "Voltsillam",
+            "year": "26/03/1964",
+            "genre": "(no genres listed)",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 35,
+            "game": "Trippledex",
+            "year": "14/02/1964",
+            "genre": "Crime|Drama",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 36,
+            "game": "Zamit",
+            "year": "12/08/1972",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 37,
+            "game": "Lotstring",
+            "year": "08/08/1968",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 38,
+            "game": "Alpha",
+            "year": "27/01/1977",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 39,
+            "game": "Fintone",
+            "year": "30/09/2003",
+            "genre": "Comedy|Drama|Musical",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 40,
+            "game": "Zathin",
+            "year": "10/02/1993",
+            "genre": "Documentary",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 41,
+            "game": "Solarbreeze",
+            "year": "05/04/1985",
+            "genre": "Drama|Musical|Romance",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 42,
+            "game": "Viva",
+            "year": "22/09/1992",
+            "genre": "Comedy",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 43,
+            "game": "Cardguard",
+            "year": "05/01/2018",
+            "genre": "Crime",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 44,
+            "game": "Treeflex",
+            "year": "17/01/1986",
+            "genre": "Adventure|Crime|Thriller",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 45,
+            "game": "Ronstring",
+            "year": "09/12/1967",
+            "genre": "Comedy|Crime",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 46,
+            "game": "Greenlam",
+            "year": "29/11/1959",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 47,
+            "game": "Sonsing",
+            "year": "11/08/1987",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 48,
+            "game": "Transcof",
+            "year": "17/10/1975",
+            "genre": "Crime|Drama|Thriller",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 49,
+            "game": "Sonair",
+            "year": "10/07/2015",
+            "genre": "Comedy|Musical",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 50,
+            "game": "Trippledex",
+            "year": "14/03/1959",
+            "genre": "Comedy|Drama|Musical|Romance",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 51,
+            "game": "Stronghold",
+            "year": "06/11/1951",
+            "genre": "Drama|Mystery|Sci-Fi",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 52,
+            "game": "Tampflex",
+            "year": "17/02/1979",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 53,
+            "game": "Andalax",
+            "year": "27/05/1978",
+            "genre": "Drama|Romance",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 54,
+            "game": "Lotstring",
+            "year": "22/11/1983",
+            "genre": "Horror",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 55,
+            "game": "Wrapsafe",
+            "year": "30/04/1970",
+            "genre": "Adventure|Comedy|Drama",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 56,
+            "game": "Latlux",
+            "year": "19/09/2004",
+            "genre": "Drama|Musical",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 57,
+            "game": "Ventosanzap",
+            "year": "24/04/1957",
+            "genre": "Action|Sci-Fi",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 58,
+            "game": "Treeflex",
+            "year": "08/04/2013",
+            "genre": "Comedy|Romance",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 59,
+            "game": "Y-find",
+            "year": "22/07/1970",
+            "genre": "Comedy|Drama|Romance",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 60,
+            "game": "Namfix",
+            "year": "14/06/1982",
+            "genre": "Action|Adventure|Children|Comedy|Fantasy",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 61,
+            "game": "Solarbreeze",
+            "year": "30/05/1968",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 62,
+            "game": "Matsoft",
+            "year": "01/01/1989",
+            "genre": "Adventure|Romance|War",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 63,
+            "game": "Sonsing",
+            "year": "07/07/1962",
+            "genre": "Comedy",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 64,
+            "game": "Bamity",
+            "year": "22/11/2009",
+            "genre": "Children|Drama|Fantasy",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 65,
+            "game": "Stronghold",
+            "year": "03/04/2021",
+            "genre": "Adventure|Drama|War",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 66,
+            "game": "Sonair",
+            "year": "02/06/1993",
+            "genre": "Documentary",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 67,
+            "game": "Stim",
+            "year": "29/11/1956",
+            "genre": "Drama|War",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 68,
+            "game": "Ronstring",
+            "year": "22/04/1971",
+            "genre": "(no genres listed)",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 69,
+            "game": "Cookley",
+            "year": "22/08/1950",
+            "genre": "Comedy",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 70,
+            "game": "Tresom",
+            "year": "29/10/1982",
+            "genre": "Comedy",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 71,
+            "game": "Viva",
+            "year": "03/11/1951",
+            "genre": "Documentary",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 72,
+            "game": "Holdlamis",
+            "year": "08/03/1967",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 73,
+            "game": "Kanlam",
+            "year": "16/06/1999",
+            "genre": "Crime|Drama|Thriller",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 74,
+            "game": "Alpha",
+            "year": "22/01/1968",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 75,
+            "game": "Zamit",
+            "year": "27/09/1997",
+            "genre": "Crime|Drama|Thriller",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 76,
+            "game": "Regrant",
+            "year": "21/10/1981",
+            "genre": "Comedy|Thriller",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 77,
+            "game": "Quo Lux",
+            "year": "26/03/1998",
+            "genre": "(no genres listed)",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 78,
+            "game": "Tresom",
+            "year": "01/05/2006",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 79,
+            "game": "Lotstring",
+            "year": "08/05/1956",
+            "genre": "Documentary",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 80,
+            "game": "Cardguard",
+            "year": "25/04/2019",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 81,
+            "game": "Tres-Zap",
+            "year": "29/07/2016",
+            "genre": "Horror|Thriller",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 82,
+            "game": "Bitchip",
+            "year": "20/09/1976",
+            "genre": "Crime|Thriller",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 83,
+            "game": "Stringtough",
+            "year": "11/04/1995",
+            "genre": "Comedy",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 84,
+            "game": "Asoka",
+            "year": "20/10/1982",
+            "genre": "Adventure|Animation|Children",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 85,
+            "game": "Duobam",
+            "year": "20/09/1981",
+            "genre": "Drama|Horror|Thriller",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 86,
+            "game": "Daltfresh",
+            "year": "30/08/1955",
+            "genre": "Comedy|Sci-Fi",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 87,
+            "game": "Alphazap",
+            "year": "24/02/1958",
+            "genre": "Horror",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 88,
+            "game": "Subin",
+            "year": "22/04/2010",
+            "genre": "Children|Comedy|Fantasy",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 89,
+            "game": "Zontrax",
+            "year": "25/02/2011",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 90,
+            "game": "Otcom",
+            "year": "19/04/2011",
+            "genre": "Action|Adventure|Fantasy|Mystery",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 91,
+            "game": "Mat Lam Tam",
+            "year": "25/11/1973",
+            "genre": "Action|Crime|Drama|Thriller",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 92,
+            "game": "Flowdesk",
+            "year": "16/04/1988",
+            "genre": "Drama|Thriller",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 93,
+            "game": "Zaam-Dox",
+            "year": "16/11/2014",
+            "genre": "Adventure|Animation|Children|Comedy",
+            "multiplayer": true,
+            "offline": false,
+            "crossplataform": true
+      },
+      {
+            "id": 94,
+            "game": "Zaam-Dox",
+            "year": "01/03/1996",
+            "genre": "Drama|Sci-Fi|Western",
+            "multiplayer": false,
+            "offline": false,
+            "crossplataform": false
+      },
+      {
+            "id": 95,
+            "game": "Tempsoft",
+            "year": "02/04/1967",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 96,
+            "game": "Daltfresh",
+            "year": "13/09/1992",
+            "genre": "Comedy|Crime|Drama",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 97,
+            "game": "Latlux",
+            "year": "04/04/1998",
+            "genre": "Action|Crime|Drama|Mystery|Thriller",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": true
+      },
+      {
+            "id": 98,
+            "game": "Matsoft",
+            "year": "28/10/1977",
+            "genre": "Horror|Sci-Fi",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 99,
+            "game": "Viva",
+            "year": "03/04/1954",
+            "genre": "Drama",
+            "multiplayer": false,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 100,
+            "game": "Veribet",
+            "year": "09/03/2003",
+            "genre": "Drama",
+            "multiplayer": true,
+            "offline": true,
+            "crossplataform": false
+      },
+      {
+            "id": 101,
+            "game": "test",
+            "year": "15/02/2021",
+            "genre": "abc",
+            "multiplayer": "false",
+            "offline": "true",
+            "crossplataform": "false"
+      },
+      {
+            "id": 102,
+            "game": "abc",
+            "year": "10/02/2022",
+            "genre": "cba",
+            "multiplayer": "true",
+            "offline": "false",
+            "crossplataform": "false"
+      },
+      {
+            "id": 103,
+            "game": "Mineirinho",
+            "year": "01/01/2015",
+            "genre": "meme",
+            "multiplayer": "false",
+            "offline": "true",
+            "crossplataform": "false"
+      }
+]
