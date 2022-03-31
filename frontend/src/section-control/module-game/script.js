@@ -75,6 +75,7 @@ function addEventsGame() {
                         console.log(response);
                     })
                     .catch((error) => console.log("warning: ", error));
+                    $("#play").attr("disabled", true);
                 alert(
                     " GAME OVER :( \n  pressione reiniciar para jogar novamente"
                 );
@@ -121,7 +122,9 @@ function addEventsGame() {
     }
 
     function restart() {
+        $("#play").attr("disabled", false);
         points = 0;
+        getMaximumPoints();
         $("#actual-points").html(`Pontuação atual: 0`);
         snake = [];
         snake[0] = {

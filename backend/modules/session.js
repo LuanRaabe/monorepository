@@ -28,6 +28,9 @@ function createAccount(body) {
 }
 
 function checkAccount(body) {
+    if(body.name.length == 0 || body.password.length == 0){
+        return "wrong password";
+    }
     let dataBase = require("../sessions.json");
     console.log(dataBase);
     let find = dataBase.filter((item) => item.name == body.name);
@@ -41,7 +44,7 @@ function updatePoints(body) {
     let readDataBase = require("../sessions.json");
     let find = readDataBase.map((item, index) => {
         return (item.uuid == body.uuid) ? index : false
-        }).filter(el => el)[0];
+        }).filter(el => el !== false)[0];
     readDataBase[find].maxPoints = (body.points > readDataBase[find].maxPoints) ? body.points : readDataBase[find].maxPoints;
     let dataBase = "./sessions.json";
     try {
@@ -64,7 +67,8 @@ function getMaximumPoints(body){
     let dataBase = require("../sessions.json");
     let find = dataBase.map((item, index) => {
         return (item.uuid == body.uuid) ? index : false
-        }).filter(el => el)[0];
+        }).filter(el => el !== false)[0];
+    console.log(find);
     return String(dataBase[find].maxPoints);
 }
 
